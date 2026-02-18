@@ -112,7 +112,7 @@ int main(int argc, char* argv[])
 }
 
 void chknocom(){
-    if(arg[3] == "=") mov(arg[0], arg[2]);
+    if(arg[1] == "=") mov(arg[0], arg[2]);
     else if(arg[1] == "+="){
         mov("al", arg[0]);
         add("al", arg[2]);
