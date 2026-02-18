@@ -15,7 +15,7 @@ POINT main_loop:
 POINT exit:
     end
 
-var message = "hello",0
+var message = "Hello, World!",0
 
 
 asm: times 510-($-$$) db 0
