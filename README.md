@@ -143,7 +143,7 @@ if [x] < 10 then label
 
 **Conditional jump (untill):**
 ```
-untill variable operator value then label :type
+untill variable operator value label :type
 ```
 Works like `if` but jumps when the condition is **false** (i.e., continues looping until the condition becomes true). Useful for implementing loops.
 
