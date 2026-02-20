@@ -1,22 +1,7 @@
 asm: [org 0x7c00]
 
 POINT start:
-    bx = message
-
-POINT main_loop:
-    if [bx] == 0 => exit
-
-    print: char [bx]
-
-    bx ++
-    jump main_loop
-
-
-POINT exit:
-    end
-
-var message = "Hello, World!",0
-
+    print: str "Hello, World!"
 
 asm: times 510-($-$$) db 0
 asm: db 0x55, 0xaa
