@@ -1,4 +1,4 @@
-# QUARK
+# Quark-Lang-226
 
 <div align="center">
 <img src="https://img.shields.io/badge/language-C%2B%2B-blue.svg">
