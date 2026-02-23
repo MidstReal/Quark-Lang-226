@@ -405,9 +405,6 @@ void chkcom(){
     else if(arg[0] == "call") call(arg[1]);
     else if(arg[0] == "reboot") int_("0x19");
 
-
-    // else cout << Color::YELLOW << "NOTE: " << Color::RESET << Color::GREEN << arg[0] << Color::RESET << " - unknown command" << endl;
-
 }
 
 void mov(string farg0, string farg1){
